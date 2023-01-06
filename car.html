@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Car and Rating Driver</title>
+    <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <!-- <h1 style="text-align: center;">Perusahaan Name</h1> -->
+            <img src="image/logo.png" alt="logo" height="250" width="100%">
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="room.html">Meeting Room</a></li>
+                    <li><a href="car.html">Booking Car and Rating Driver</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+        <br>
+            <div>
+                <fieldset>
+                    <legend>
+                        <h2>Booking Car</h2>
+                    </legend>
+                    <form action="#">
+                        <table>
+                            <tr>
+                                <td><label for="name">Name</label></td>
+                                <td><input
+                                    type="text"
+                                    name="name"
+                                    id="name"
+                                    placeholder="Please insert name"
+                                    autofocus
+                                    required></td>
+                                <td><label for="divisi">Division</label></td>
+                                <td><input
+                                    type="text"
+                                    name="divisi"
+                                    id="divisi"
+                                    placeholder="Please insert division"
+                                    required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="date">Date Time</label></td>
+                                <td><input
+                                    type="datetime-local"
+                                    id="date"
+                                    required></td>
+                                <td><label for="activity">Activity</label></td>
+                                <td><select name="activity" id="activity">
+                                        <option value="tamu">Tamu / Entertain</option>
+                                        <option value="audit">Audit</option>
+                                        <option value="training">Training</option>
+                                        <option value="meeting">Meeting</option>
+                                        <option value="perational">Operational</option>
+                                        <option value="sampling">Sampling</option>
+                                        <option value="kalibrasi">Kalibrasi</option>
+                                </select></td>
+                            </tr>
+                            <tr>
+                                <td><label for="destination">Destination</label></td>
+                                <td><input
+                                    type="text"
+                                    name="destination"
+                                    id="destination"
+                                    placeholder="Enter your destination"
+                                    required></td>
+                                <td><label for="desc">Description</label></td>
+                                <td><textarea
+                                    name="desc"
+                                    id="desc"
+                                    cols="18"
+                                    rows="2"
+                                    placeholder="Enter your description"></textarea>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="t&c" required/>I agree to Terms & Conditions<br/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="20">
+                                    <input type="submit" value="Book Now">
+                                    <input type="reset" value="Reset">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </fieldset>
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend>
+                        <h2>Rating Driver</h2>
+                    </legend>
+                    <form action="#">
+                        <table>
+                            <tr>
+                                <td><label for="name">Name</label></td>
+                                <td><input
+                                    type="text"
+                                    name="name"
+                                    id="name"
+                                    placeholder="Please insert name"
+                                    autofocus
+                                    required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="divisi">Division</label></td>
+                                <td><input
+                                    type="text"
+                                    name="divisi"
+                                    id="divisi"
+                                    required
+                                    disabled></td>
+                            </tr>
+                            <tr>
+                                <td><label for="date">Date</label></td>
+                                <td><input
+                                    type="date"
+                                    id="date"
+                                    required
+                                    disabled></td>
+                            </tr>
+                            <tr>
+                                <td><label for="destination">Destination</label></td>
+                                <td><input
+                                    type="text"
+                                    name="destination"
+                                    id="destination"
+                                    required
+                                    disabled></td>
+                            </tr>
+                            <tr>
+                                <td><label for="activity">Activity</label></td>
+                                <td><input
+                                    type="text"
+                                    name="activity"
+                                    id="activity"
+                                    required
+                                    disabled></td>
+                            </tr>
+                            <tr>
+                                <td><label for="driver">Driver</label></td>
+                                <td><input
+                                    type="text"
+                                    name="driver"
+                                    id="driver"
+                                    required
+                                    disabled></td>
+                            </tr>
+                            <tr>
+                                <td><label for="car">Car</label></td>
+                                <td><input
+                                    type="text"
+                                    name="car"
+                                    id="car"
+                                    required
+                                    disabled></td>
+                            </tr>
+                            <tr>
+                                <td><label for="note">Note</label></td>
+                                <td><input
+                                    type="text"
+                                    name="note"
+                                    id="note"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="rating">Rating &star; (1-5)</label></td>
+                                <td><input
+                                    type="number"
+                                    name="rating"
+                                    id="rating"
+                                    required
+                                    min="1"
+                                    max="5"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="20">
+                                    <input type="submit" value="Submit">
+                                    <input type="reset" value="Reset">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </fieldset>
+            </div>
+            <br>
+            <hr>
+            <footer>
+                <address>
+                    Mon - Fri 08:00am - 05:00pm<br>
+                    (+62-21) 788 9090<br>
+                    general-affair@team.com<br>
+                </address>
+            </footer>
+            <hr>
+            <h4>Copyright&copy;Ismi Nur Aziz</h4>
+    </main>
+</body>
+</html>

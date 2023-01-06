@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <!-- <h1 style="text-align: center;">Perusahaan Name</h1> -->
+            <img src="image/logo.png" alt="logo" height="250" width="100%">
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="room.html">Meeting Room</a></li>
+                    <li><a href="car.html">Booking Car and Rating Driver</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+            <aside>
+                <h3>Ini adalah Aside</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique cupiditate, eligendi, pariatur, illum architecto eaque nam voluptatibus omnis laborum est sequi nihil modi asperiores magni exercitationem sit animi magnam facilis.</p>
+            </aside>
+            <section>
+                <h3>Ini adalah Section</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam fugiat tempora tenetur. Obcaecati suscipit assumenda quia laborum dolore accusamus, nesciunt laudantium perspiciatis libero sunt animi quis. Tenetur accusamus reprehenderit maxime!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam fugiat tempora tenetur. Obcaecati suscipit assumenda quia laborum dolore accusamus, nesciunt laudantium perspiciatis libero sunt animi quis. Tenetur accusamus reprehenderit maxime!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam fugiat tempora tenetur. Obcaecati suscipit assumenda quia laborum dolore accusamus, nesciunt laudantium perspiciatis libero sunt animi quis. Tenetur accusamus reprehenderit maxime!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam fugiat tempora tenetur. Obcaecati suscipit assumenda quia laborum dolore accusamus, nesciunt laudantium perspiciatis libero sunt animi quis. Tenetur accusamus reprehenderit maxime!</p>
+            </section>
+            <article>
+                <h3>Ini adalah Article</h3>
+                <h5>Judul 1</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, saepe possimus consequuntur totam accusantium doloremque quasi at molestias quibusdam hic dolor voluptatum voluptate voluptas minima obcaecati est nihil asperiores culpa.</p><br>
+                <h5>Judul 2</h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem ex reprehenderit quam necessitatibus modi dolore debitis quae obcaecati, eaque optio provident harum consectetur neque aliquam enim minima facere deserunt veritatis!</p>
+            </article>
+            <hr>
+            <br>
+            <div>
+                <fieldset>
+                    <legend>
+                        <h2>Track Courier</h2>
+                    </legend>
+                    <form action="#">
+                        <table>
+                            <tr>
+                                <td><label for="courier">Courier</label></td>
+                                <td><select name="courier" id="courier">
+                                    <optgroup label="Please select courier name">
+                                        <option value="jne">JNE Express</option>
+                                        <option value="pos">POS Indonesia</option>
+                                        <option value="tiki">TIKI</option>
+                                        <option value="wahana">Wahana Express</option>
+                                        <option value="j&t">J&T Express</option>
+                                        <option value="rpx">RPX</option>
+                                        <option value="sap">SAP Express</option>
+                                        <option value="sc">SiCepat Express</option>
+                                        <option value="pcp">PCP Express</option>
+                                        <option value="jet">JET Express</option>
+                                        <option value="dse">DSE</option>
+                                        <option value="fl">First Logistic</option>
+                                        <option value="nx">Ninja Xpress</option>
+                                        <option value="lp">Lion Parcel</option>
+                                        <option value="idl">Indotama Domestik Lestari(IDL)</option>
+                                    </optgroup>
+                                </select></td>
+                                <td><label for="resi">Receipt Number</label></td>
+                                <td><input
+                                    type="text"
+                                    name="resi"
+                                    id="resi"
+                                    placeholder="Please insert the Receipt Number"
+                                    autofocus></td>
+                                <td colspan="20">
+                                    <input type="submit" value="Track">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </fieldset>
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend>
+                        <h2>Document Order</h2>
+                    </legend>
+                    <form action="#">
+                        <table>
+                            <tr>
+                                <td><label for="date">Date</label></td>
+                                <td><input
+                                    type="datetime-local"
+                                    id="date"
+                                    required></td>
+                                <td><label for="detail">Document Detail</label></td>
+                                <td><input
+                                    type="text"
+                                    name="detail"
+                                    id="detail"
+                                    placeholder="Please insert the detail for document"
+                                    required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="send">Requester Name</label></td>
+                                <td><input
+                                    type="text"
+                                    name="send"
+                                    id="send"
+                                    placeholder="Please insert sender name"
+                                    required></td>
+                                <td><label for="divisi">Division</label></td>
+                                <td><input
+                                    type="text"
+                                    name="divisi"
+                                    id="divisi"
+                                    placeholder="Please insert division"
+                                    required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="cc">Client or Company</label></td>
+                                <td><input
+                                    type="text"
+                                    name="cc"
+                                    id="cc"
+                                    placeholder="Please insert the destination company"
+                                    required></td>
+                                <td><label for="address">Address</label></td>
+                                <td><textarea
+                                    name="address"
+                                    id="address"
+                                    cols="18"
+                                    rows="2"
+                                    placeholder="Please insert the detailed address"
+                                    required></textarea>
+                            </tr>
+                            <tr>
+                                <td><label for="receive">Receiver Name</label></td>
+                                <td><input
+                                    type="text"
+                                    name="receive"
+                                    id="receive"
+                                    placeholder="Please insert the receive name"
+                                    required></td>
+                                <td><label for="contact">Contact Number</label></td>
+                                <td><input
+                                    type="text"
+                                    name="contact"
+                                    id="contact"
+                                    placeholder="Please insert contact number for the receiver"
+                                    required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="courier">Courier</label></td>
+                                <td><select name="courier" id="courier">
+                                    <optgroup label="Please select courier name">
+                                        <option value="jne">JNE Express</option>
+                                        <option value="pos">POS Indonesia</option>
+                                        <option value="tiki">TIKI</option>
+                                        <option value="wahana">Wahana Express</option>
+                                        <option value="j&t">J&T Express</option>
+                                        <option value="rpx">RPX</option>
+                                        <option value="sap">SAP Express</option>
+                                        <option value="sc">SiCepat Express</option>
+                                        <option value="pcp">PCP Express</option>
+                                        <option value="jet">JET Express</option>
+                                        <option value="dse">DSE</option>
+                                        <option value="fl">First Logistic</option>
+                                        <option value="nx">Ninja Xpress</option>
+                                        <option value="lp">Lion Parcel</option>
+                                        <option value="idl">Indotama Domestik Lestari(IDL)</option>
+                                        <option value="other">Other Courier(Cannot Track)</option>
+                                    </optgroup>
+                                </select></td>
+                                <td><label for="service">Courier Service</label></td>
+                                <td><input
+                                    type="text"
+                                    name="service"
+                                    id="service"
+                                    placeholder="Please insert the service if needed"</td>
+                            </tr>
+                            <tr>
+                                <td colspan="20">
+                                    <input type="reset" value="Cancel">
+                                    <input type="submit" value="Submit">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </fieldset>
+            </div>
+            <br>
+            <hr>
+            <footer>
+                <address>
+                    Mon - Fri 08:00am - 05:00pm<br>
+                    (+62-21) 788 9090<br>
+                    general-affair@team.com<br>
+                </address>
+            </footer>
+            <hr>
+            <h4>Copyright&copy;Ismi Nur Aziz</h4>
+    </main>
+</body>
+</html>

@@ -1,0 +1,53 @@
+footer{
+    padding: 20px;
+    padding-left: 50px;
+    background-color: royalblue;
+    color: ghostwhite;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: royalblue;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: ghostwhite;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: black;
+}
+aside{
+    width: 20%;
+    margin-top: 40px;
+    padding-left: 10px;
+    margin-left: 40px;
+    float: right;
+    font-style: italic;
+    background-color: lightsalmon;
+}
+section,article{
+    width: 80%;
+}
+table{
+    width: 80%;
+}
+table, th, tr, td{
+    border: 0px solid black;
+    border-collapse: collapse;
+    padding: 4px;
+}
+h4{
+    padding: 20px;
+    padding-left: 50px;
+    background-color: navy;
+    color: ghostwhite;
+    text-align: center;
+}
